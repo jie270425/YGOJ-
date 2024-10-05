@@ -1,0 +1,5 @@
+a=input()
+b=input()
+c=b.split()
+d=list(map(int,c))
+print(max(d))
